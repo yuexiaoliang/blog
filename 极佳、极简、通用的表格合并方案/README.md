@@ -1,4 +1,4 @@
-# 极佳、极简、通用的表格合并方案
+# 极佳、极简、通用的表格（Table）合并单元格方案
 
 笔者一直有个开源梦，但是奈何时间有限、技术有限一直没有真正的开始过，2022 年 10 月 01 日，我决定走出这一步。
 
@@ -33,7 +33,7 @@ const spanMethod = ({ rowIndex, columnIndex }) => {
 
 ## table-merge
 
-基于上述思路，笔者开发了本文主角**table-merge**（文档暂未完善），并且已经开源到 [Github](https://github.com/yuexiaoliang/table-merge) 以及 [NPM](https://www.npmjs.com/package/table-merge)，并且提供了*element-plus*（文档已完善）以及*ant-design-vue*（文档已完善）开箱即用的 [@table-merge/element-plus](https://github.com/yuexiaoliang/table-merge/tree/master/packages/element-plus)、[@table-merge/ant-design-vue](https://github.com/yuexiaoliang/table-merge/tree/master/packages/ant-design-vue)。
+基于上述思路，笔者开发了本文主角**table-merge**，已经开源到  [Github](https://github.com/yuexiaoliang/table-merge)  以及  [NPM](https://www.npmjs.com/package/table-merge)，并且支持多个 UI 框架开箱即用，会在本文最后列出。
 
 例如*element-plus*想实现表格行合并，只需要很少的代码即可实现如下效果：
 
@@ -66,5 +66,15 @@ const columns = [
 ```
 
 更多灵活的使用方式可以参考上述链接中的使用文档。
+
+## 开箱即用
+
+[@table-merge/element-ui](https://github.com/yuexiaoliang/table-merge/tree/master/packages/element-ui)
+
+[@table-merge/element-plus](https://github.com/yuexiaoliang/table-merge/tree/master/packages/element-plus)
+
+[@table-merge/ant-design](https://github.com/yuexiaoliang/table-merge/tree/master/packages/ant-design)
+
+[@table-merge/ant-design-vue](https://github.com/yuexiaoliang/table-merge/tree/master/packages/ant-design-vue)
 
 最后，希望本库可以帮助到别人！
