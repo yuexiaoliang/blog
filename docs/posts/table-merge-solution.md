@@ -12,7 +12,7 @@ description: "用表格数据预先解析出一份虚拟表格，配合 UI 库�
 
 很多 UI 库合并单元格的方式都是提供一个方式让我们可以根据自己的需求传递一个方法控制某些单元格的 `rowspan` 或 `colspan` 达到合并需求。比如*element-plus*提供了 `span-method` 属性，我们可以写一个方法给坐标（ ps：`[行, 列]`） 为 `[0, 1]` 的单元格设置 `rowspan` 为 `2`，`[1, 1]` 的单元格设置 `rowspan` 为 `0`，那么 `[0, 1]` 的单元格将占 2 行，而 `[1, 1]` 的单元格不会渲染，效果如下：
 
-<img src="/images/table-merge-solution/1.png" alt="span-method 合并效果" style="width: 500px" />
+![span-method 合并效果](/images/table-merge-solution/1.png)
 
 ```js
 // 代码

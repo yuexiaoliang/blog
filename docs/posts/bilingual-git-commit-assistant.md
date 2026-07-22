@@ -13,11 +13,11 @@ description: "用通义千问加一份 prompt 打造 commit 助手，把随手�
 2. 翻译为英文版本。
 ```
 
-<img src="/images/bilingual-git-commit-assistant/1.png" alt="prompt" />
+![prompt](/images/bilingual-git-commit-assistant/1.png)
 
 
 2. 简单编写提交信息。
 
-<img src="/images/bilingual-git-commit-assistant/2.png" alt="chat" />
+![chat](/images/bilingual-git-commit-assistant/2.png)
 
 > Prompt 相关文件地址：https://github.com/yuexiaoliang/blog/blob/master/prompts/files/conventionalcommits.md
