@@ -1,0 +1,89 @@
+/* ============================================================
+ * 设计令牌 —— 干净简约的浅色/暗色双主题
+ * 取色参考 Apple 人机界面的中性色体系，品牌色为 iOS 蓝。
+ * ============================================================ */
+
+:root {
+  /* 颜色 · 浅色 */
+  --c-bg: #fbfbfd;
+  --c-bg-soft: #f5f5f7;
+  --c-bg-elevated: #ffffff;
+  --c-bg-alt: #f2f2f5;
+
+  --c-text-1: #1d1d1f;
+  --c-text-2: #6e6e73;
+  --c-text-3: #98989d;
+
+  --c-border: rgba(60, 60, 67, 0.12);
+  --c-border-strong: rgba(60, 60, 67, 0.22);
+  --c-divider: rgba(60, 60, 67, 0.08);
+
+  --c-brand: #007aff;
+  --c-brand-deep: #0060df;
+  --c-brand-soft: rgba(0, 122, 255, 0.11);
+  --c-brand-softer: rgba(0, 122, 255, 0.06);
+  --c-mark: rgba(255, 214, 10, 0.36);
+
+  --c-tip: #007aff;
+  --c-warning: #ff9500;
+  --c-danger: #ff3b30;
+
+  --nav-bg: rgba(251, 251, 253, 0.72);
+  --card-shadow-rest: 0 1px 2px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 0, 0, 0.03);
+  --card-shadow-hover: 0 4px 10px rgba(0, 0, 0, 0.05), 0 14px 34px rgba(0, 0, 0, 0.09);
+  --pop-shadow: 0 8px 20px rgba(0, 0, 0, 0.08), 0 32px 64px rgba(0, 0, 0, 0.14);
+
+  /* 动效 · iOS 式 */
+  --ease-ios: cubic-bezier(0.32, 0.72, 0, 1);            /* 标准减速，大部分过渡 */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);      /* 明显回弹，点睛处使用 */
+  --ease-spring-soft: cubic-bezier(0.34, 1.3, 0.64, 1);  /* 轻回弹，卡片/弹层 */
+  --dur-fast: 0.16s;
+  --dur: 0.3s;
+  --dur-slow: 0.45s;
+
+  /* 布局 */
+  --nav-height: 56px;
+  --content-width: 760px;
+  --page-width: 1080px;
+  --toc-width: 216px;
+  --gap: 24px;
+
+  /* 圆角 */
+  --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 18px;
+
+  /* 字体 */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI',
+    Roboto, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas,
+    'Liberation Mono', monospace;
+}
+
+/* 颜色 · 暗色（Apple 深空灰系） */
+html.dark {
+  --c-bg: #161618;
+  --c-bg-soft: #1f1f22;
+  --c-bg-elevated: #232326;
+  --c-bg-alt: #1a1a1d;
+
+  --c-text-1: #f5f5f7;
+  --c-text-2: #a1a1a6;
+  --c-text-3: #7c7c82;
+
+  --c-border: rgba(255, 255, 255, 0.12);
+  --c-border-strong: rgba(255, 255, 255, 0.22);
+  --c-divider: rgba(255, 255, 255, 0.08);
+
+  --c-brand: #0a84ff;
+  --c-brand-deep: #409cff;
+  --c-brand-soft: rgba(10, 132, 255, 0.17);
+  --c-brand-softer: rgba(10, 132, 255, 0.1);
+  --c-mark: rgba(255, 214, 10, 0.28);
+
+  --nav-bg: rgba(22, 22, 24, 0.72);
+  --card-shadow-rest: 0 1px 2px rgba(0, 0, 0, 0.35), 0 2px 8px rgba(0, 0, 0, 0.28);
+  --card-shadow-hover: 0 4px 10px rgba(0, 0, 0, 0.4), 0 14px 34px rgba(0, 0, 0, 0.5);
+  --pop-shadow: 0 8px 20px rgba(0, 0, 0, 0.45), 0 32px 64px rgba(0, 0, 0, 0.6);
+}
