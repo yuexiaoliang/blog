@@ -20,7 +20,7 @@ const recent = posts.slice(0, 6)
     <section class="hero">
       <div class="hero-glow" aria-hidden="true" />
       <div class="container hero-inner">
-        <div class="hero-avatar" aria-hidden="true">{{ (siteInfo.name || '拾')[0] }}</div>
+        <div class="hero-avatar" aria-hidden="true">{{ (siteInfo.name || 'Y')[0].toUpperCase() }}</div>
         <h1 class="hero-title">{{ siteInfo.name }}</h1>
         <p class="hero-tagline">{{ siteInfo.tagline }}</p>
         <div v-if="siteInfo.socials?.length" class="hero-socials">

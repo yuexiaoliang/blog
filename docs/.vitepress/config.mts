@@ -27,8 +27,8 @@ export function tokenize(text: string): string[] {
 // 与 VitePress 默认主题的配置互不依赖。
 export default defineConfig({
   lang: 'zh-CN',
-  title: '拾光',
-  description: '一个记录技术与思考的安静角落',
+  title: 'yuexiaoliang',
+  description: 'yuexiaoliang 的个人技术博客：前端笔记、开源轮子与折腾记录',
   cleanUrls: true,
 
   head: [
@@ -79,18 +79,18 @@ export default defineConfig({
 
     // 以下为自定义主题私有配置
     site: {
-      name: '拾光',
-      tagline: '记录技术与思考的安静角落',
-      author: '拾光',
+      name: 'yuexiaoliang',
+      tagline: '前端工程师的笔记与分享：解决问题、造轮子、记录折腾',
+      author: 'yuexiaoliang',
       socials: [
-        { icon: 'github', label: 'GitHub', link: 'https://github.com/vuejs/vitepress' },
-        { icon: 'mail', label: '邮箱', link: 'mailto:hi@shiguang.dev' },
+        { icon: 'github', label: 'GitHub', link: 'https://github.com/yuexiaoliang' },
+        { icon: 'mail', label: '邮箱', link: 'mailto:hi@yuexiaoliang.com' },
       ],
     },
 
     footer: {
-      message: '用心书写，慢慢积累',
-      copyright: 'Copyright © 2026 拾光 · 基于 VitePress 构建',
+      message: '记录问题、分享方案、慢慢积累',
+      copyright: 'Copyright © 2022-2026 yuexiaoliang · 基于 VitePress 构建',
     },
   } as any,
 })

@@ -1,4 +1,4 @@
-# 拾光 · 个人技术博客
+# yuexiaoliang · 个人技术博客
 
 基于 [VitePress](https://vitepress.dev) 从零开发的自定义主题，不使用任何第三方主题。
 
