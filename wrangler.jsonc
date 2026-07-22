@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "blog",
+  "compatibility_date": "2026-07-22",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "极佳、极简、通用的表格合并方案"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
